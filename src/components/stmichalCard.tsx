@@ -13,7 +13,7 @@ import {
 
 export function StMichalCard() {
   return (
-    <Card className="w-full   max-w-sm  bg-ethBlack-100  rounded-none">
+    <Card className="w-full   max-w-lg  bg-ethBlack-100  rounded-none  border-0 shadow-none ">
       <CardHeader>
         
         <CardTitle className=" place-items-center">

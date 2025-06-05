@@ -14,7 +14,7 @@ import { Avatar, AvatarFallback } from "./ui/avatar"
 
 export function Announcements() {
   return (
-    <Card className="w-full max-w-sm bg-ethBlack-100  rounded-none">
+    <Card className="w-full max-w-sm bg-ethBlack-100 rounded-none  border-0 shadow-none">
       <CardHeader>
         
         <CardTitle className=" place-items-center">
