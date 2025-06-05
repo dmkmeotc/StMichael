@@ -20,10 +20,10 @@ export function Announcements() {
  {/*  <AvatarImage src="https://github.com/shadcn.png" /> */}
   <AvatarFallback>CN</AvatarFallback>
 </Avatar>
-                <h1 className="scroll-m-20 text-center text-3xl font-extrabold tracking-tight text-balance">
+                <h1 className="scroll-m-20 text-center text-2xl font-extrabold tracking-tight text-balance">
       Announcements
     </h1>
- <h3 className="scroll-m-20 text-2xl font-semibold tracking-tight text-center">
+ <h3 className="scroll-m-20 text-xl font-semibold tracking-tight text-center">
        <p>  Parish events <br/> news & updates
           </p>
     </h3>

@@ -16,7 +16,7 @@ export function SupportCard() {
       
       <CardContent>
        
-   <div className=" grid grid-cols-2 ">
+   <div className=" grid grid-cols-2  ">
     <div>
    <Avatar className='w-24 h-24 m-6 place-self-center '>
  {/*  <AvatarImage src="https://github.com/shadcn.png" /> */}
@@ -25,19 +25,19 @@ export function SupportCard() {
     
 </div>
 <div >
- <h1 className="scroll-m-20 text-center text-3xl font-extrabold tracking-tight text-balance">
+ <h1 className="scroll-m-20 text-center text-2xl font-extrabold tracking-tight text-balance">
       Support <br/> the <br/>  Church
     </h1>
 </div>
     <div>
-   <h3 className="scroll-m-20 text-2xl font-semibold tracking-tight text-center">
+   <h3 className="scroll-m-20 text-xl font-semibold tracking-tight text-center">
        <p>  Programs  <br/> for all <br/> ages
           </p>
     </h3>
 </div>
 
 <div  className='place-self-end mb-4 mr-4 bg-amber-300  p-7 rounded-2xl'>
-   <h3 className="scroll-m-20 text-2xl font-semibold tracking-tight text-center">
+   <h3 className="scroll-m-20 text-xl font-semibold tracking-tight text-center text-ethBlack-50">
        <p>  SUPPORT <br/> THE <br/> CHURCH  
           </p>
     </h3>
