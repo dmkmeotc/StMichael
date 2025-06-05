@@ -5,20 +5,19 @@ import {
 
   CardContent,
 
-  CardHeader,
-  CardTitle,
+
 } from "@/components/ui/card"
 import { Avatar, AvatarFallback } from "./ui/avatar"
 
 
 export function SupportCard() {
   return (
-    <Card className="w-full max-w-sm bg-ethBlack-100  rounded-none  border-0 shadow-none">
-      <CardHeader>
-        
-        <CardTitle className=" place-items-center">
-          <div className='grid  grid-cols-2 '>
-<div>
+    <Card className="w-full max-w-sm bg-ethBlack-100  rounded-none  border-0 shadow-none m-0 p-0">
+      
+      <CardContent>
+       
+   <div className=" grid grid-cols-2 ">
+    <div>
    <Avatar className='w-24 h-24 m-6 place-self-center '>
  {/*  <AvatarImage src="https://github.com/shadcn.png" /> */}
   <AvatarFallback>RN</AvatarFallback>
@@ -30,15 +29,6 @@ export function SupportCard() {
       Support <br/> the <br/>  Church
     </h1>
 </div>
-</div>
-
-            </CardTitle>
-    
-      
-      </CardHeader>
-      <CardContent>
-       
-   <div className=" grid grid-cols-2 ">
     <div>
    <h3 className="scroll-m-20 text-2xl font-semibold tracking-tight text-center">
        <p>  Programs  <br/> for all <br/> ages

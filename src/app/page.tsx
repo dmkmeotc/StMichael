@@ -2,13 +2,15 @@ import Fotter from "@/components/footer";
 import Header from "@/components/header";
 import Homebody from "@/components/homebody";
 
+
 const Side = () => {
     return ( 
-    <div  className="flex  flex-col justify-start items-center w-full p-2  ">
+    <div  className=" flex flex-col items-center justify-center w-full  gap-0  ">
        <Header/>
+     
        <Homebody/>
        <Fotter/>
-    </div> );
+    </div> );     
 }
  
 export default Side;
