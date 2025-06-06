@@ -2,7 +2,7 @@ const Fotter = () => {
     return ( 
 
        
-            <div className='flex justify-between items-center  text-ethBlack-50  gap-12 m-4 w-full p-6'>
+            <div className='flex justify-between items-end   text-ethBlack-50  gap-12 m-4 w-full p-6 py-14'>
 
   <div>
      <h2 className="scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight ">

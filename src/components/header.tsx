@@ -8,8 +8,8 @@ const Header = () => {
          <Image
           src="/croos2.png" // place your image inside the /public/images folder
           alt="Holy Celebration"
-          width={80}
-          height={200}
+          width={70}
+          height={150}
           className='m-0 p-0'
         />
             </div>  
