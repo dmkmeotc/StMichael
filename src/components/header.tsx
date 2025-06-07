@@ -1,26 +1,30 @@
 import Image from 'next/image'
+import LocaleSwitcher from './LocaleSwitcher'
+import { useTranslations } from 'next-intl'
 
 const Header = () => {
-    return (
-         <div > 
-            <div className=' flex w-full justify-center items-center m-0 '>
+  const t = useTranslations('Header')
 
-         <Image
-          src="/croos2.png" // place your image inside the /public/images folder
-          alt="Holy Celebration"
+  return (
+    <div>
+      <div className=" fixed top-2 right-2 m-4 z-50">
+        <LocaleSwitcher />
+      </div>
+
+      <div className='flex w-full justify-center items-center m-0'>
+        <Image
+          src="/croos2.png"
+          alt={t('holyCelebrationAlt')}
           width={70}
           height={150}
           className='m-0 p-0'
         />
-            </div>  
-          <h1 className="church-name">Debre Meheret St. Michael Church</h1>
-          <h2 className="church-subname">Ethiopian Orthodox Tewahedo Church</h2>
-           <h2 className="page-title">Where faith meets tradition...</h2>
-           
-   
-    </div> 
-    
-  );
-} 
- 
-export default Header;
+      </div>  
+      <h1 className="church-name">{t('churchName')}</h1>
+      <h2 className="church-subname">{t('churchSubname')}</h2>
+      <h2 className="page-title">{t('pageTitle')}</h2>
+    </div>
+  )
+}
+
+export default Header

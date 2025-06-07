@@ -1,0 +1,59 @@
+{
+  "IndexPage": {
+    "title": "ወደ ኢትዮ ቴሌኮም ሞባይል አፕ ሱቅ እንኳን ደህና መጡ",
+    "title2": "የእኛ የቅርብ ጊዜ የሞባይል መተግበሪያ",
+    "footer":"ተጨማሪ የኢትዮ ቴሌኮም የሞባይል አፕሊኬሽኖችን ያስሱ"
+  },
+
+
+  "language":{
+    "lan":"am"
+  },
+
+
+  "Error": {
+    "title": "ሆነ ችግር ተፈጠረ!",
+    "description": "<p>በሚያሳዝን ሁኔታ ስህተት አጋጥሞናል።</p><p> ገጹን እንደገና ለመጫን <retry> መሞከር ይችላሉ</retry> እየጎበኙ ነበር.</p>"
+  },
+  "NotFoundPage": {
+    "title": "ገጽ አልተገኘም",
+    "description": "እባክዎን የአሳሽ አድራሻ አሞሌን ሁለቴ ያረጋግጡ ወይም ወደ የታወቀ ገጽ ለመሄድ አሰሳን ይጠቀሙ።"
+  },
+  "LocaleLayout": {
+    "title": "ኢትዮ አፕ ስቶር"
+  },
+
+  "LocaleSwitcher": {
+    "label": "ቋንቋ ቀይር",
+  "locale": "{locale, select, en {English} am {አማርኛ}  other {Unknown}}"
+
+  },
+
+
+  "Header": {
+    "holyCelebrationAlt": "መንፈሳዊ በዓል",
+    "churchName": "ደብረ ምህረት ስት ሚካኤል ቤተክርስቲያን",
+    "churchSubname": "የኢትዮጵያ ኦርቶዶክስ ተዋህዶ ቤተክርስቲያን",
+    "pageTitle": "እምነት እና ባህላዊ ተግባር በአንድነት..."
+  },
+  "AnnouncementsCard": {
+    "title": "ማስታወቂያዎች",
+    "description": "የቤተክርስቲያን ክስተቶች እና ዜናዎች",
+    "buttonText": "አባል ይሁኑ"
+  },
+  "StMichalCard": {
+    "serviceScheduleTitle": "የአገልግሎት ሰሌዳ",
+    "serviceScheduleTimes": "እሁድ ሰዓት 9:00 ጠዋት\nረቡዕ ሰዓት 12:00 ከሰዓት",
+    "buttonText": "አገልግሎት ይጠይቁ"
+  },
+  "SupportCard": {
+    "supportTitle": "ቤተክርስቲያንን\nድጋፍ ያድርጉ",
+    "supportDescription": "ለሁሉም ዕድሜ ፕሮግራሞች",
+    "supportCallToAction": "ቤተክርስቲያንን\nድጋፍ ያድርጉ"
+  }
+
+
+
+  
+ 
+}

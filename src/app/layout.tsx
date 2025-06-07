@@ -2,12 +2,8 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import "./custom.css";
-import {
-  ResizableHandle,
-  ResizablePanel,
-  ResizablePanelGroup,
-} from "@/components/ui/resizable"
-import Sidebar from "@/components/Sidebar";
+
+
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -34,51 +30,9 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-          <main className="w-full min-h-screen m-0 bg-ethDeepBlue-900">
-      {/* Desktop View */}
-      <div className="hidden md:block">
-        <ResizablePanelGroup
-          direction="horizontal"
-          className="w-full min-h-screen  rounded-lg border md:min-w-[450px]"
-        >
-          <ResizablePanel defaultSize={20} >
-            <div className="h-screen overflow-hidden pr-6">
-              <Sidebar />
-            </div>
-          </ResizablePanel>
-
-          <ResizableHandle withHandle />
-
-          <ResizablePanel defaultSize={80}  >
-            <div className="flex flex-col w-full h-screen overflow-y-auto items-start justify-start border-2 ">
-              {children}
-            </div>
-          </ResizablePanel>
-        </ResizablePanelGroup>
-      </div>
-
-      {/* Mobile View */}
-      <div className="block md:hidden">
-        <ResizablePanelGroup
-          direction="horizontal"
-          className="min-h-screen w-full rounded-lg border"
-        >
-          <ResizablePanel defaultSize={0}>
-            <div className="h-screen overflow-hidden pr-6">
-              <Sidebar />
-            </div>
-          </ResizablePanel>
-
-          <ResizableHandle withHandle />
-
-          <ResizablePanel defaultSize={100}>
-            <div className="flex flex-col w-full h-screen overflow-y-auto items-start justify-start ">
-              {children}
-            </div>
-          </ResizablePanel>
-        </ResizablePanelGroup>
-      </div>
-    </main>
+         {children}
+    
+   
       </body>
     </html>
   );

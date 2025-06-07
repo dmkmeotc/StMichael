@@ -1,0 +1,56 @@
+{
+  "IndexPage": {
+    "title": "Welcome to Ethio telecom Mobile App Store",
+    "title2": "Our Latest Mobile App",
+    "footer":"Explore more Ethio telecom Mobile Apps"
+  },
+
+
+"language":{
+  "lan":"en"
+},
+
+
+  "Error": {
+    "title": "Something went wrong!",
+    "description": "<p>We've unfortunately encountered an error.</p><p>You can try to <retry>reload the page</retry> you were visiting.</p>"
+  },
+  "NotFoundPage": {
+    "title": "Page not found",
+    "description": "Please double-check the browser address bar or use the navigation to go to a known page."
+  },
+  "LocaleLayout": {
+    "title": "Ethio App Store"
+  },
+
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, en {English} am {አማርኛ}  other {Unknown}}"
+  },
+ 
+ "Header": {
+    "holyCelebrationAlt": "Holy Celebration",
+    "churchName": "Debre Meheret St. Michael Church",
+    "churchSubname": "Ethiopian Orthodox Tewahedo Church",
+    "pageTitle": "Where faith meets tradition..."
+  },
+  "AnnouncementsCard": {
+    "title": "Announcements",
+    "description": "Parish events \n news & updates",
+    "buttonText": "BECOME MEMBER"
+  },
+  "StMichalCard": {
+    "serviceScheduleTitle": "Service Schedule",
+    "serviceScheduleTimes": "Sunday at 9:00 AM\nWednesday at 12:00 PM",
+    "buttonText": "Request Service"
+  },
+  "SupportCard": {
+    "supportTitle": "Support \n the \n Church",
+    "supportDescription": "Programs \n for all \n ages",
+    "supportCallToAction": "SUPPORT \n THE \n CHURCH"
+  }
+
+
+
+  
+}

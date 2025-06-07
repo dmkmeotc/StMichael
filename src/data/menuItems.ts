@@ -1,50 +1,49 @@
-// data/menuItems.ts
 export const menuItems = [
-  { label: "Home", href: "/home" },
-  { label: "Announcements", href: "/announcements" },
+  { label: "home", href: "/home" },
+  { label: "announcements", href: "/announcements" },
   {
-    label: "Deacons",
+    label: "deacons",
     children: [
-      { label: "All Deacons", href: "/deacons" },
-      { label: "Schedules", href: "/deacons/schedules" },
+      { label: "allDeacons", href: "/deacons" },
+      { label: "schedules", href: "/deacons/schedules" },
     ],
   },
   {
-    label: "Donation / Fundraising",
+    label: "donation",
     children: [
-      { label: "Make a Donation", href: "/donation" },
-      { label: "Fundraising Events", href: "/donation/events" },
+      { label: "makeDonation", href: "/donation" },
+      { label: "fundraisingEvents", href: "/donation/events" },
     ],
   },
-  { label: "Our Diocese", href: "/diocese" },
+  { label: "ourDiocese", href: "/diocese" },
   {
-    label: "Our Church",
+    label: "ourChurch",
     children: [
-      { label: "About", href: "/church/about" },
-      { label: "Events", href: "/church/events" },
+      { label: "about", href: "/church/about" },
+      { label: "events", href: "/church/events" },
     ],
   },
-  { label: "Sunday School", href: "/sunday-school" },
+  { label: "sundaySchool", href: "/sunday-school" },
   {
-    label: "Youth Corner",
+    label: "youthCorner",
     children: [
-      { label: "Programs", href: "/youth/programs" },
-      { label: "Media", href: "/youth/media" },
-    ],
-  },
-  {
-    label: "Prayers & Quotes",
-    children: [
-      { label: "Morning Prayers", href: "/prayers/morning" },
-      { label: "Quotes", href: "/quotes" },
+      { label: "programs", href: "/youth/programs" },
+      { label: "media", href: "/youth/media" },
     ],
   },
   {
-    label: "Holy Family Meeting",
+    label: "prayersQuotes",
     children: [
-      { label: "Info", href: "/holy-family/info" },
-      { label: "Meetings", href: "/holy-family/meetings" },
+      { label: "morningPrayers", href: "/prayers/morning" },
+      { label: "quotes", href: "/quotes" },
     ],
   },
-  { label: "Contact Us", href: "/contact" },
+  {
+    label: "holyFamily",
+    children: [
+      { label: "info", href: "/holy-family/info" },
+      { label: "meetings", href: "/holy-family/meetings" },
+    ],
+  },
+  { label: "contactUs", href: "/contact" },
 ]
